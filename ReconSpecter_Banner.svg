@@ -1,0 +1,63 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.55" stop-color="#0B1026"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7C4DFF" stop-opacity="0.35"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <style>
+      .title { font: 800 72px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; letter-spacing: 1px; }
+      .subtitle { font: 500 28px 'Segoe UI', Arial, sans-serif; fill: #CBD5E1; }
+      .tag { font: 700 18px 'Segoe UI', Arial, sans-serif; fill: #0F172A; }
+      .small { font: 500 16px 'Segoe UI', Arial, sans-serif; fill: #94A3B8; }
+      .grid { stroke: #334155; stroke-opacity: 0.22; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="360" rx="0" fill="url(#bg)"/>
+  <circle cx="1040" cy="95" r="160" fill="#00E5FF" opacity="0.16" filter="url(#blur)"/>
+  <circle cx="1130" cy="290" r="135" fill="#7C4DFF" opacity="0.14" filter="url(#blur)"/>
+  <path d="M0 310 C180 240 300 380 520 300 C740 220 830 260 1280 170" stroke="url(#glow)" stroke-width="3" opacity="0.8"/>
+
+  <!-- grid -->
+  <line class="grid" x1="0" y1="0" x2="0" y2="360"/><line class="grid" x1="80" y1="0" x2="80" y2="360"/><line class="grid" x1="160" y1="0" x2="160" y2="360"/><line class="grid" x1="240" y1="0" x2="240" y2="360"/><line class="grid" x1="320" y1="0" x2="320" y2="360"/><line class="grid" x1="400" y1="0" x2="400" y2="360"/><line class="grid" x1="480" y1="0" x2="480" y2="360"/><line class="grid" x1="560" y1="0" x2="560" y2="360"/><line class="grid" x1="640" y1="0" x2="640" y2="360"/><line class="grid" x1="720" y1="0" x2="720" y2="360"/><line class="grid" x1="800" y1="0" x2="800" y2="360"/><line class="grid" x1="880" y1="0" x2="880" y2="360"/><line class="grid" x1="960" y1="0" x2="960" y2="360"/><line class="grid" x1="1040" y1="0" x2="1040" y2="360"/><line class="grid" x1="1120" y1="0" x2="1120" y2="360"/><line class="grid" x1="1200" y1="0" x2="1200" y2="360"/><line class="grid" x1="1280" y1="0" x2="1280" y2="360"/>
+  <line class="grid" x1="0" y1="0" x2="1280" y2="0"/><line class="grid" x1="0" y1="60" x2="1280" y2="60"/><line class="grid" x1="0" y1="120" x2="1280" y2="120"/><line class="grid" x1="0" y1="180" x2="1280" y2="180"/><line class="grid" x1="0" y1="240" x2="1280" y2="240"/><line class="grid" x1="0" y1="300" x2="1280" y2="300"/><line class="grid" x1="0" y1="360" x2="1280" y2="360"/>
+
+  <!-- decorative nodes -->
+  <g opacity="0.85">
+    <circle cx="920" cy="80" r="5" fill="#00E5FF"/>
+    <circle cx="1020" cy="140" r="4" fill="#7C4DFF"/>
+    <circle cx="1135" cy="92" r="6" fill="#00E5FF"/>
+    <circle cx="1180" cy="225" r="5" fill="#7C4DFF"/>
+    <path d="M920 80 L1020 140 L1135 92 L1180 225" stroke="#00E5FF" stroke-width="2" opacity="0.55"/>
+  </g>
+
+  <!-- icon badge -->
+  <circle cx="175" cy="180" r="96" fill="#020617" stroke="#00E5FF" stroke-width="3" opacity="0.95"/>
+  <circle cx="175" cy="180" r="118" stroke="#00E5FF" stroke-width="1.5" opacity="0.25"/>
+  
+        <g transform="translate(175,180)" stroke="#00E5FF" stroke-width="4" fill="none" opacity="0.95">
+          <circle cx="0" cy="0" r="54"/>
+          <circle cx="0" cy="0" r="34" opacity="0.65"/>
+          <circle cx="0" cy="0" r="14" opacity="0.45"/>
+          <path d="M0 0 L48 -25"/>
+          <circle cx="48" cy="-25" r="6" fill="#00E5FF"/>
+        </g>
+
+  <!-- text -->
+  <text x="320" y="158" class="title">ReconSpecter</text>
+  <text x="324" y="205" class="subtitle">Cyber Reconnaissance • OSINT • Network Discovery</text>
+
+  <rect x="324" y="238" width="174" height="38" rx="19" fill="#00E5FF"/>
+  <text x="351" y="263" class="tag">GitHub Project</text>
+  
+
+  <rect x="0" y="0" width="1280" height="360" fill="none" stroke="#00E5FF" stroke-opacity="0.28" stroke-width="4"/>
+</svg>
